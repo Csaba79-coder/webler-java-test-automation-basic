@@ -35,7 +35,5 @@ public class MatrixExample {
             }
             System.out.println(); // Új sor a következő sorhoz
         }
-
-        // TODO piramis rajzolása :)
     }
 }
