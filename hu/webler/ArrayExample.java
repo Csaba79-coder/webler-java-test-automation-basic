@@ -1,5 +1,7 @@
 package hu.webler;
 
+import hu.webler.algorithm.MinSearch;
+
 public class ArrayExample {
 
     // Mikor jó egy tömb??? - amikor előre tudom a méretét, és lehetőleg nem változik gyakran!
@@ -11,6 +13,9 @@ public class ArrayExample {
     */
 
     public static void main(String[] args) {
+
+        int min = MinSearch.findMin(MinSearch.numbers);
+        System.out.println(min);
 
         // Tömbök jele: [] jele előtt pedig a típusa van!
         // Tömb mindig fix méretű, előre rögzíteni kell a méretét! mérete nem változtatható! ha nagyobb kell, újat csinálsz és növeled a méretét valamint átmásolhatod ami kell
